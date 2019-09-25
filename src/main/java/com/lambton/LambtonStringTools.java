@@ -19,26 +19,22 @@ public static int binaryToDecimal(String s) {
         return (decimalNumber);
 
     }
-public static String initials(String s)
-    {
+public static String initials(String s){
         s = s.trim();
-String initial="";
+        String initial = "";
         String nstr = "";
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
 
             if (ch != ' ') {
                 continue;
+            } else {
+                initial = initial + ch;
+                initial = initial + ".";
             }
-            else {
-                initial= initial+ch;
-                initial=initial+".";
-            }
+            return(initial);
+
         }
-        return(initial);
-    }
 
 
-
-}
-}
+    }}}

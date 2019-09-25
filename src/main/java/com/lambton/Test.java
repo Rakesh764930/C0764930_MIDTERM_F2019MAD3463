@@ -12,5 +12,7 @@ public class Test {
         int real=rev.binaryToDecimal("1010");
         System.out.println("the decimal number is :"+real);
 
+        String initialName=rev.initials("Rahul Kumar Sinha");
+
     }
 }
