@@ -3,19 +3,23 @@ package com.lambton;
 public class LambtonStringTools {
 
     public static String reverse(String  s) {
-        String nString=s;
         String rString = " ";
-        for (int i = nString.length() - 1; i >= 0; i--) {
-            rString = rString + nString.charAt(i);
+        for (int i = s.length() - 1; i >= 0; i--) {
+            rString = rString + s.charAt(i);
         }
 
 
         return(rString);
     }
 
-public static int binaryToDecimal()
+public static int binaryToDecimal(String s) {
+    {
+        int decimalNumber = Integer.parseInt(s, 2);
+
+        return (decimalNumber);
+
+    }
 
 
-
-
+}
 }
